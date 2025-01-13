@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="IMG/1.jpg" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>ປະຫວັດນັກສຶກສາ</title>
+    <style>
+        body {
+            font-family: 'Noto Sans Lao', sans-serif;
+            background-color: #ff9d00;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 2px 2px 5px rgb(0, 153, 255);
+        }
+        
+        h2 {
+            text-align: center;
+            color: #00ccff;
+            ;
+        }
+        .personal-info, .family-info, .gallery, .video-section {
+            margin: 20px auto;
+            max-width: 800px;
+            background: #ca6969;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+        }
+        .personal-info {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .personal-info img {
+            width: 200px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .bio-info {
+            flex: 1;
+        }
+        .bio-info p {
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ffffff;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #333333;
+            color: #ffffff;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(17, 255, 0, 0.2);
+        }
+        video {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <h1>ປະຫວັດນັກສຶກສາ</h1>
+    <h2>ປະວັດສ່ວນຕົວ</h2>
+    <div class="personal-info">
+        <img src="7d0f2ef3-d9f2-4d58-94fa-a8a074672fc0.jpg" alt="Profile Image">
+        <div class="bio-info">
+            <p><strong>- ຊື່:</strong> ທ້າວ ພະນົມເພັັດ ມາລາວົງ</p>
+            <p><strong>- ວັນເກີດ:</strong> 06 ທັນວາ 2004</p>
+            <p><strong>- ສັນຊາດ:</strong> ລາວ</p>
+            <p><strong>- ບ້ານປະຈຸບັນ:</strong> ບ້ານ ນາຊາງ ເມືອງ ຫຼວງພະບາງ ແຂວງ ຫຼວງພະບາງ</p>
+            <p><strong>- ສຶກສາທີ່:</strong> ມະຫາວິທະຍາໄລສຸພານຸວົງ ແຂວງຫຼວງພະບາງ</p>
+            <p><strong>- ຈົບຈາກມັດທະຍົມ:</strong> ໂຮງຮຽນ ມສ ປ່ອງຄຳ 2013-2021</p>
+            <p><strong>- ຈົບຈາກປະຖົມສຶກສາ:</strong> ໂຮງຮຽນ ຊິ່ນຮວາ 2007-2012</p>
+        </div>
+    </div>
+
+    <div class="family-info">
+        <h2>ຂໍ້ມູນຄອບຄົວ</h2>
+        <table>
+            <tr>
+                <th>ລຳດັບ</th>
+                <th>ຊື່</th>
+                <th>ຄວາມສໍາພັນ</th>
+                <th>ເບີໂທ</th>
+                <th>ສະຖານທີ່</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ທ້າວ ສີປະສອນ ມາລາວົງ</td>
+                <td>ພໍ່</td>
+                <td>020 22618549</td>
+                <td>ແຂວງ ຫຼວງພະບາງ</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ນາງ ດ່ອນ</td>
+                <td>ແມ່</td>
+                <td>020 22616330</td>
+                <td>ແຂວງ ຫຼວງພະບາງ</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="gallery">
+        <h2>ຮູບພາບ</h2>
+        <img src="WhatsApp Image 2025-01-13 at 09.45.57 (1).jpeg" alt="ຮູບ 1">
+        <img src="WhatsApp Image 2025-01-13 at 09.45.57.jpeg" alt="ຮູບ 2">
+        <img src="g.jpeg" alt="ຮູບ 3">
+    </div>
+
+    <div class="video-section">
+        <h2>ວິດີໂອ</h2>
+        <video controls>
+            <source src="8.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="personal-info">
+        <h2>ຟອມປ້ອນຂໍ້ມູນ</h2>
+        <form>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="ປ້ອນ Email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="ປ້ອນ Password">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="check">
+                <label class="form-check-label" for="check">ຍືນຍັນ</label>
+            </div>
+            <button type="submit" class="btn btn-primary">ບັນທຶກ</button>
+            <button type="reset" class="btn btn-danger">ຍົກເລີກ</button>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
